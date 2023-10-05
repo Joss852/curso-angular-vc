@@ -1,0 +1,150 @@
+{
+  "heroes": [
+    {
+      "id": "dc-wonder",
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "sdfsfsdfs",
+      "first_appearance": "All Star Comics #8",
+      "characters": "asdfasdfs",
+      "alt_img": ""
+    },
+    {
+      "alter_ego": "J\"onn J\"onzz",
+      "characters": "Martian Manhunter",
+      "first_appearance": "Detective Comics #225",
+      "id": "dc-martian",
+      "publisher": "DC Comics",
+      "superhero": "Martian Manhunter"
+    },
+    {
+      "alter_ego": "Dick Grayson",
+      "characters": "Dick Grayson",
+      "first_appearance": "Detective Comics #38",
+      "id": "dc-robin",
+      "publisher": "DC Comics",
+      "superhero": "Robin/Nightwing"
+    },
+    {
+      "alter_ego": "Dan Garret",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes",
+      "first_appearance": "Mystery Men Comics #1",
+      "id": "dc-blue",
+      "publisher": "DC Comics",
+      "superhero": "Blue Beetle"
+    },
+    {
+      "alter_ego": "Dinah Drake",
+      "characters": "Dinah Drake, Dinah Lance",
+      "first_appearance": "Flash Comics #86",
+      "id": "dc-black",
+      "publisher": "DC Comics",
+      "superhero": "Black Canary"
+    },
+    {
+      "alter_ego": "Peter Parker",
+      "characters": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15",
+      "id": "marvel-spider",
+      "publisher": "Marvel Comics",
+      "superhero": "Spider Man"
+    },
+    {
+      "alter_ego": "Steve Rogers",
+      "characters": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1",
+      "id": "marvel-captain",
+      "publisher": "Marvel Comics",
+      "superhero": "Captain America"
+    },
+    {
+      "alter_ego": "Tony Stark",
+      "characters": "Tony Stark",
+      "first_appearance": "Tales of Suspense #39",
+      "id": "marvel-iron",
+      "publisher": "Marvel Comics",
+      "superhero": "Iron Man"
+    },
+    {
+      "alter_ego": "Thor Odinson",
+      "characters": "Thor Odinson",
+      "first_appearance": "Journey into Myster #83",
+      "id": "marvel-thor",
+      "publisher": "Marvel Comics",
+      "superhero": "Thor"
+    },
+    {
+      "alter_ego": "Bruce Banner",
+      "characters": "Bruce Banner",
+      "first_appearance": "The Incredible Hulk #1",
+      "id": "marvel-hulk",
+      "publisher": "Marvel Comics",
+      "superhero": "Hulk"
+    },
+    {
+      "alter_ego": "James Howlett",
+      "characters": "James Howlett",
+      "first_appearance": "The Incredible Hulk #180",
+      "id": "marvel-wolverine",
+      "publisher": "Marvel Comics",
+      "superhero": "Wolverine"
+    },
+    {
+      "alter_ego": "Matthew Michael Murdock",
+      "characters": "Matthew Michael Murdock",
+      "first_appearance": "Daredevil #1",
+      "id": "marvel-daredevil",
+      "publisher": "Marvel Comics",
+      "superhero": "Daredevil"
+    },
+    {
+      "alter_ego": "Clinton Francis Barton",
+      "characters": "Clinton Francis Barton",
+      "first_appearance": "Tales of Suspense #57",
+      "id": "marvel-hawkeye",
+      "publisher": "Marvel Comics",
+      "superhero": "Hawkeye"
+    },
+    {
+      "alter_ego": "Scott Summers",
+      "characters": "Scott Summers",
+      "first_appearance": "X-Men #1",
+      "id": "marvel-cyclops",
+      "publisher": "Marvel Comics",
+      "superhero": "Cyclops"
+    },
+    {
+      "alter_ego": "Norrin Radd",
+      "characters": "Norrin Radd",
+      "first_appearance": "The Fantastic Four #48",
+      "id": "marvel-silver",
+      "publisher": "Marvel Comics",
+      "superhero": "Silver Surfer"
+    },
+    {
+      "alt_img": "https://i.pinimg.com/474x/e5/04/63/e5046370624dcc18d265f985e1bb54f2.jpg",
+      "alter_ego": "Strider",
+      "characters": "Fernando",
+      "first_appearance": "Comic Udemy 2015 #1",
+      "id": "ejcrjZv",
+      "publisher": "Marvel Comics",
+      "superhero": "Fernando"
+    },
+    {
+      "superhero": "fsd",
+      "publisher": "DC Comics",
+      "alter_ego": "ddf",
+      "first_appearance": "d",
+      "characters": "d",
+      "alt_img": "",
+      "id": "POtDSue"
+    }
+  ],
+  "users": [
+    {
+      "email": "john.due@gmail.com",
+      "id": 1,
+      "usuario": "John Doe"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<table mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)"
+       class="mat-elevation-z8">
+
+  <!-- Superhero Column -->
+  <ng-container matColumnDef="superhero">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by superhero">
+      Superhero
+    </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.superhero}} </td>
+  </ng-container>
+
+  <!-- Publisher Column -->
+  <ng-container matColumnDef="publisher">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by publisher">
+      Publisher
+    </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.publisher}} </td>
+  </ng-container>
+
+  <!-- Alter ego Column -->
+  <ng-container matColumnDef="alter_ego">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by alter_ego">
+      Alter ego
+    </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.alter_ego}} </td>
+  </ng-container>
+
+  <!-- First appearance Column -->
+  <ng-container matColumnDef="first_appearance">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by first_appearance">
+      First appearance
+    </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.first_appearance}} </td>
+  </ng-container>
+
+  <!-- Characters Column -->
+  <ng-container matColumnDef="characters">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by characters">
+      Characters
+    </th>
+    <td mat-cell *matCellDef="let hero"> {{hero.characters}} </td>
+  </ng-container>
+
+  <!-- Image Column -->
+  <ng-container matColumnDef="alt_img">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by image">
+      Image
+    </th>
+    <td mat-cell *matCellDef="let hero">
+      <img *ngIf="hero.alt_img" src="{{hero.alt_img}}" alt="{{hero.superhero}} image" width="100" height="100">
+    </td>
+  </ng-container>
+
+  <!-- Actions Column -->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef>
+      Actions
+    </th>
+    <td mat-cell *matCellDef="let hero">
+      <button [routerLink]="'/heroes/'+hero.id" mat-menu-item class="edit" aria-label="Edit superhero" mat-menu-item>
+        <mat-icon>edit</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

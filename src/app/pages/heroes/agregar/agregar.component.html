@@ -1,0 +1,36 @@
+<form [formGroup]="form">
+  <mat-form-field>
+    <mat-label>Superhero</mat-label>
+    <input formControlName="superhero" matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Publisher</mat-label>
+    <input formControlName="publisher" matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Alter ego</mat-label>
+    <input formControlName="alter_ego" matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>First appearance</mat-label>
+    <input formControlName="first_appearance" matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Characters</mat-label>
+    <input formControlName="characters" matInput>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Image</mat-label>
+    <input formControlName="alt_img" matInput>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" [disabled]="form.invalid" (click)="updateHero()">
+    <mat-icon>save</mat-icon>
+    Guardar
+  </button>
+</form>
